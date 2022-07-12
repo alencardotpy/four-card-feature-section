@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/alencardotpy/four-card-feature-section)
-- Live Site URL: [Github Pages](-)
+- Live Site URL: [Github Pages](https://alencardotpy.github.io/four-card-feature-section)
 
 ## My process
 
