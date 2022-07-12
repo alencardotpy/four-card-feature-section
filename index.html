@@ -16,8 +16,10 @@
       rel="stylesheet"
     />
     <title>Frontend Mentor | Four card feature section</title>
+    <link rel="stylesheet" href="style.css" />
     <style>
       .attribution {
+        display: none;
         font-size: 11px;
         text-align: center;
       }
@@ -26,15 +28,63 @@
       }
     </style>
   </head>
-  <body>
-    Reliable, efficient delivery Powered by Technology Our Artificial
-    Intelligence powered tools use millions of project data points to ensure
-    that your project is successful Supervisor Monitors activity to identify
-    project roadblocks Team Builder Scans our talent network to create the
-    optimal team for your project Karma Regularly evaluates our talent to ensure
-    quality Calculator Uses data from past projects to provide better delivery
-    estimates
-
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">
+        Reliable, efficient delivery
+        <strong class="header__title--strong">Powered by Technology</strong>
+      </h1>
+      <p class="header__text">
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+    </header>
+    <main class="container">
+      <div class="container__card container__card-supervisor">
+        <p class="container__card-title">Supervisor</p>
+        <p class="container__card-text">
+          Monitors activity to identify project roadblocks
+        </p>
+        <img
+          class="container__card-image"
+          src="./images/icon-supervisor.svg"
+          alt=""
+        />
+      </div>
+      <div class="container__card container__card-team">
+        <p class="container__card-title">Team Builder</p>
+        <p class="container__card-text">
+          Scans our talent network to create the optimal team for your project
+        </p>
+        <img
+          class="container__card-image"
+          src="./images/icon-team-builder.svg"
+          alt=""
+        />
+      </div>
+      <div class="container__card container__card-karma">
+        <p class="container__card-title">Karma</p>
+        <p class="container__card-text">
+          Regularly evaluates our talent to ensure quality
+        </p>
+        <img
+          class="container__card-image"
+          src="./images/icon-karma.svg"
+          alt=""
+        />
+      </div>
+      <div class="container__card container__card-calculator">
+        <p class="container__card-title">Calculator</p>
+        <p class="container__card-text">
+          Uses data from past projects to provide better delivery estimates
+        </p>
+        <img
+          class="container__card-image"
+          src="./images/icon-calculator.svg"
+          alt=""
+        />
+      </div>
+    </main>
     <footer>
       <p class="attribution">
         Challenge by
